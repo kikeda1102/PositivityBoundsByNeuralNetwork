@@ -9,7 +9,8 @@
 $d$ 次元時空中のmassless real scalar EFTの一般形を考えます。
 
 $$
-    \mathcal{L}_{\text{low}} =  -\frac{1}{2}(\partial_{\mu} \phi)^2  - \frac{g}{3!}\phi^3 - \frac{\lambda}{4!}\phi^4
+    \mathcal{L}_{\text{low}} = 
+    -\frac{1}{2} (\partial_{\mu} \phi)^2 - \frac{g}{3!}\phi^3 - \frac{\lambda}{4!}\phi^4
             + \frac{g_2}{2}[(\partial_{\mu} \phi)^2]^2 + \frac{g_3}{3}(\partial_{\mu}\partial_{\nu} \phi)^2 (\partial_{\sigma}\phi)^2 + 4g_4[(\partial_{\mu}\partial_{\nu}\phi)^2]^2
             +...
 $$
