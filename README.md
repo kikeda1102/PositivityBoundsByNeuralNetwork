@@ -7,11 +7,13 @@
 
 ### 問題
 $d$ 次元時空中のmassless real scalar EFTの一般形を考えます。
+
 $$
     \mathcal{L}_{\text{low}} =  -\frac{1}{2}(\partial_{\mu} \phi)^2  - \frac{g}{3!}\phi^3 - \frac{\lambda}{4!}\phi^4
             + \frac{g_2}{2}[(\partial_{\mu} \phi)^2]^2 + \frac{g_3}{3}(\partial_{\mu}\partial_{\nu} \phi)^2 (\partial_{\sigma}\phi)^2 + 4g_4[(\partial_{\mu}\partial_{\nu}\phi)^2]^2
             +...
 $$
+
 最終目標は、このようなEFTの高階微分項の結合定数 $g_2, g_3, ...$ に対して、高エネルギー領域においても理論がunitaryであるなどといった物理的仮定にもとづき、取りうる値の制限を決定することです (positivity boundsと呼ばれます)。
 
 この理論のtreeレベル散乱振幅に対する分散関係式の議論から、高階結合定数 $g_k$ は、次のような $g_k$関数 $g_k(m^2,J)$ のheavy averageという操作によって与えられることが導けます。
