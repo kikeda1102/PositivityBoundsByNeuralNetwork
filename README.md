@@ -1,5 +1,8 @@
 # PositivityBoundsByNeuralNetwork
 
+**MathJaxのレンダリングがうまくいかないため、pdf化しました。
+[PositivityBoundsByNN.pdf](PositivityBoundsByNN.pdf)をご覧ください。**
+
 ## 問題設定
 どういう式を, どういう拘束条件で解きたいのか
 
