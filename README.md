@@ -21,6 +21,7 @@ $$
 $$
     g_2 = \Braket{g_2(m^2, J)}, \quad g_3 = \Braket{ g_3(m^2, J) }, \quad g_4 = \Braket{ g_4(m^2, J) }, \ \dots \label{sum rules}\tag{1}
 $$
+
 これらを分散的総和則と呼びます。
 $g_k$関数の具体形は、
 
