@@ -1,6 +1,6 @@
 # PositivityBoundsByNeuralNetwork
 
-**MathJaxのレンダリングがうまくいかないため、pdf化しました。
+**MathJaxのレンダリングがうまくいかないため、暫定的にpdf化したファイルを用意しました。
 [PositivityBoundsByNN.pdf](PositivityBoundsByNN.pdf)をご覧ください。**
 
 ## 問題設定
