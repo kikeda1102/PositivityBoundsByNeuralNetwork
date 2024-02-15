@@ -21,7 +21,7 @@ x_max = 9 # xの最大値
 x_step = 1  # 刻み幅を指定
 x_list = np.arange(0, x_max + x_step, x_step)
 M2 = 1 # EFTのcutoff scale
-m2_list = M2 * (1 + x_list) 
+m2_list = M2 * (1 + x_list)
 m2_step = M2 * x_step
 # spin
 J_max = 40 # Jの最大値
@@ -94,10 +94,10 @@ model = Sequential([
 
 # loss function
 def custom_loss(y_true, y_pred):
-        a2 = 1 
+        a2 = 1
         a3 = 1
         w4 = 1
-        
+
         rho_vecotor = model(X_input)
 
         g2_term = a2 * heavy_average(func_vector=g2_vector, rho_vector=rho_vecotor)
@@ -116,10 +116,10 @@ y_input = initial_factor * tf.ones(len(X_input), dtype=np.float64)
 
 
 # 学習
-n_epochs = 10
+n_epochs = 50
 for i in range(1, n_epochs+1): # 反復回数
     history = model.fit(X_input, y_input, epochs=n_epochs, verbose=0)
-    if i % (2) == 0:
+    if i % (3) == 0:
         print(f'{i}th epoch')
         print(f'loss: {history.history["loss"]}')
 
@@ -130,7 +130,7 @@ plt.plot(history.history['loss'])
 plt.xlabel('epoch')
 plt.ylabel('loss')
 #保存
-plt.savefig('../data/loss.png')
+plt.savefig('./data/loss.png')
 
 
 plt.clf()
@@ -143,4 +143,4 @@ plt.xlabel('g2')
 plt.ylabel('g3')
 plt.legend()
 #保存
-plt.savefig('../data/g2g3.png')
+plt.savefig('./data/g2g3.png')
